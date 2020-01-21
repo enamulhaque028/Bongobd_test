@@ -12,7 +12,7 @@ browser.get("https://www.bongobd.com/")
 timeout = 5
 try:
     television_selector = "a[href='/channel/channel-24']"
-    # television_selector = ".jss442"
+    # television_selector = ".jss1326"
 
     element_present = EC.presence_of_element_located(
         (By.CSS_SELECTOR, television_selector))
